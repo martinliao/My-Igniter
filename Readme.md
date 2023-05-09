@@ -13,6 +13,7 @@ cd application/ && composer install
 **Install ReactJs Modules**
 ```bash
 cd assets/ && npm install
+npm remove webpack webpack-cli && npm install --save-dev webpack webpack-cli
 ```
 
 **Compile ReactJs With Webpack**
